@@ -1,0 +1,23 @@
+* {
+   background-color: darkslategray;
+   color: whitesmoke;
+
+}
+
+
+#About:hover{
+   color: cyan;
+}
+
+#Home:hover{
+   color: red
+}
+
+#Links:hover{
+   color: brown;
+}
+
+.navigation {
+   color: whitesmoke;
+   box-sizing: content-box;
+}
