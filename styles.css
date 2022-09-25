@@ -4,20 +4,25 @@
 
 }
 
-
-#About:hover{
-   color: cyan;
-}
-
-#Home:hover{
-   color: red
-}
-
-#Links:hover{
-   color: brown;
-}
-
 .navigation {
-   color: whitesmoke;
-   box-sizing: content-box;
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+
+a {
+   border: 1px solid;
+   margin: 18px;
+   padding: 12px;
+   border-radius: 15%;
+   content: unset;
+   color: black;
+   background: lightsalmon;
+}
+
+a:hover {
+   background-color: cyan;
 }
