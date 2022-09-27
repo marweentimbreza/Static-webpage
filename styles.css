@@ -12,8 +12,24 @@
   width: 100%;
 }
 
+button {
+   background-color: gray;
+}
+
+button:hover{
+   background-color: cyan;
+   transition-duration: 0.4s;
+
+
+}
+
+button:root{
+   color-scheme: white;
+   background: white;
+}
 
 a {
+   display: inline-block;
    border: 1px solid;
    margin: 18px;
    padding: 12px;
@@ -25,4 +41,5 @@ a {
 
 a:hover {
    background-color: cyan;
+   transition-duration: 0.5s;
 }
