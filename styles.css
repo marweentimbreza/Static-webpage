@@ -1,15 +1,15 @@
-* {
-   background-color: darkslategray;
-   color: whitesmoke;
-
-}
-
 .navigation {
   border: 1px solid LightGrey;
   padding: 40px 0px;
   position: relative;
   text-align: center;
   width: 100%;
+  background-color: whitesmoke;
+}
+
+.dark-mode {
+   background-color: black;
+   color: white;
 }
 
 button {

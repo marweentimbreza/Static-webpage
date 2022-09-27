@@ -6,13 +6,19 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="styles.css">
    <title>The webpage</title>
+   <script>
+      function darkmode(){
+         var elememt = document.body;
+         elememt.classList.toggle("dark-mode");
+      }
+   </script>
 </head>
 <body>
    <nav class="navigation">
       <a href="#">Home</a>
       <a href="#">About</a>
       <a href="#">Links</a>
-      <button type="button">Change color to white</button>
+      <button onclick="darkmode()">Change color to white</button>
    </nav>
    <h1>
       Welcome to my Static webpage sample
