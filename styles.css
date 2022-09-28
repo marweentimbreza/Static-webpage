@@ -1,3 +1,6 @@
+
+
+
 .navigation {
   border: 1px solid LightGrey;
   padding: 40px 0px;
@@ -8,7 +11,7 @@
 }
 
 .dark-mode {
-   background-color: black;
+   background-color: darkslategray;
    color: white;
 }
 
